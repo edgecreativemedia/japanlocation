@@ -14,13 +14,6 @@
         "psr-4": { "EdgeCreativeMedia\\JapanLocation\\": "src" }
     },
     "autoload-dev": {
-        "psr-4": {
-            "EdgeCreativeMedia\\JapanLocation\\": "tests"
-        }
+        "psr-4": { "EdgeCreativeMedia\\JapanLocation\\": "tests" }
     },
-    "authors": [
-        {
-            "name": "Nick Wilson"
-        }
-    ],
 }
