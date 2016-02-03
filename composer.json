@@ -16,8 +16,11 @@
     "autoload-dev": {
         "psr-4": { "EdgeCreativeMedia\\JapanLocation\\": "tests" }
     }
-<<<<<<< HEAD
 }
-=======
+{
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
->>>>>>> dev-master
