@@ -16,9 +16,4 @@
     "autoload-dev": {
         "psr-4": { "EdgeCreativeMedia\\JapanLocation\\": "tests" }
     }
-    "authors": [
-        {
-            "name": "Nick Wilson"
-        }
-    ]
 }
