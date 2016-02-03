@@ -1,0 +1,26 @@
+{
+    "name": “edgecreativemedia/japanlocation”,
+    "type": "library",
+    "description": "Japan’s regions, prefectures and cities library.”,
+    "keywords": [“japan”, "region", "prefecture", “city”, "postal", "address", "internationalization", "localization"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+    },
+    "autoload": {
+        "psr-4": { “EdgeCreativeMedia\\JapanLocation\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EdgeCreativeMedia\\JapanLocation\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": “Nick Wilson”
+        },
+    ],
+}
