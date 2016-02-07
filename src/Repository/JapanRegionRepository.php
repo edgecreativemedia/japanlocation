@@ -36,7 +36,7 @@ class JapanRegionRepository implements JapanRegionRepositoryInterface
     public function __construct($definitionPath = null)
     {
         $this->definitionPath = $definitionPath ?: __DIR__ . '/../../resources/data/';
-        $filename = $this->definitionPath . 'japanregion.json';
+        
     }
 
     /**
@@ -109,6 +109,7 @@ class JapanRegionRepository implements JapanRegionRepositoryInterface
      */
     protected function loadDefinitions()
     {
+    	$filename = $this->definitionPath . 'japanregion.json';
         if ($rawDefinition = @file_get_contents($filename)) {
             $this->definitions = json_decode($rawDefinition, true);
         }
